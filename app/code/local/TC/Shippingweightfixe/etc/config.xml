@@ -1,0 +1,21 @@
+<config>
+     <modules>
+        <TC_Shippingweightfixe>
+            <version>0.0.1</version>
+        </TC_Shippingweightfixe>
+    </modules>
+    <global>
+        <models>
+          <sales>
+              <rewrite>
+                  <quote_address>TC_Shippingweightfixe_Model_Sales_Quote_Address</quote_address>
+              </rewrite>
+          </sales>
+       </models>
+       <helpers>
+            <tcshippingweightfixe>
+                    <class>TC_Shippingweightfixe_Helper</class>		
+            </tcshippingweightfixe>
+        </helpers>
+    </global>
+</config>

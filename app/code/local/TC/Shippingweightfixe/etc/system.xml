@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<config>
+    <sections> 
+     <shipping>
+            <groups>
+                <tcshippingweightfixe translate="label" module="tcshippingweightfixe">
+                    <label>Ajouter un poids à la livraison</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <weight translate="label">
+                            <label>Poids à ajouter</label>
+                            <comment>Poids fixe à ajouter au panier</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </weight>
+                    </fields>
+                </tcshippingweightfixe>
+            </groups>
+        </shipping>   
+    </sections>
+</config>
+
