@@ -18,4 +18,15 @@
             </tcshippingweightfixe>
         </helpers>
     </global>
+    <adminhtml>
+          <translate>
+            <modules>
+                <tcshippingweightfixe>
+                    <files>
+                        <default>Tcshippingweight.csv</default>
+                    </files>
+                </tcshippingweightfixe>
+            </modules>
+        </translate>
+    </adminhtml>
 </config>
